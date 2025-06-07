@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube AdBlocker by DerCK",
+  "version": "1.0",
+  "description": "Blocks some basic YouTube ads ",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
