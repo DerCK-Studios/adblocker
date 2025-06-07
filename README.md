@@ -1,4 +1,4 @@
-# AD-Blocker
+# AD-Blocker ![Screenshot](icon.png)
 A simple AD-Blocker for Youtube that blocks the Advertise instantly.
 
 To install:
